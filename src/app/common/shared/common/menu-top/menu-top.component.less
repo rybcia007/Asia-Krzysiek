@@ -1,0 +1,191 @@
+@import "../../../../../../src/theme/imports.less";
+
+ .menu-main-top {
+    transition: all 0.2s ease-in-out;
+    font-family: 'Quicksand', sans-serif;
+    background-color: white;
+    padding-top:8px;
+
+    // position: absolute;
+    // top: 0;
+    // right: 0;
+    // left: 0;
+    // z-index: 1030;
+
+    @media(min-width:@screen-xsm-min) and (max-width:@screen-sm-min){
+        text-align: center;
+    }
+    @media (min-width: @screen-sm-min) { 
+        text-align: left;
+    }
+    @media (min-width: @screen-md-min) { 
+        text-align: left;
+    }
+    @media (min-width: @screen-lg-min) { 
+        text-align: left;
+    }
+
+    .navbar-default
+    {   
+        border-radius: 0px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+
+        @media(min-width:@screen-xsm-min) and (max-width:@screen-sm-min){
+            box-shadow: none;
+            background-image: none;
+            background-color: transparent;
+            border-color: transparent;
+        }
+        @media (min-width: @screen-sm-min) { 
+            box-shadow: none;
+            background-image: none;
+            background-color: transparent;
+            border-color: transparent;
+        }
+        @media (min-width: @screen-md-min) { 
+            background-image: none;
+            background-color: transparent;
+            border-color: transparent;
+        }
+        @media (min-width: @screen-lg-min) { 
+            background-image: none;
+            background-color: transparent;
+            border-color: transparent;
+        }
+
+        .navbar-nav {
+            float:none;
+            margin: 0 auto;
+            display: table;
+            table-layout: fixed;
+        }
+
+        .navbar-header {
+            @media(min-width:@screen-xsm-min) and (max-width:@screen-sm-min){
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+            @media (min-width: @screen-sm-min) { 
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+            @media (min-width: @screen-md-min) { 
+                padding-top: 5px;
+                padding-bottom: 5px;  
+            }
+            @media (min-width: @screen-lg-min) { 
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+        }
+        
+        .nav-item {
+            a {
+                cursor: pointer;
+                -webkit-touch-callout: none;
+                -webkit-user-select: none; 
+                -khtml-user-select: none; 
+                -moz-user-select: none; 
+                -ms-user-select: none; 
+                user-select: none; 
+                color: @Greay800;
+                font-weight: 400;
+
+                @media(min-width:@screen-xsm-min) and (max-width:@screen-sm-min){
+                    font-size: 17px;
+                }
+                @media (min-width: @screen-sm-min) { 
+                    font-size: 17px;
+                }
+                @media (min-width: @screen-md-min) { 
+                    font-size: 19px;
+                }
+                @media (min-width: @screen-lg-min) { 
+                    font-size: 19px;
+                }
+            }
+
+            a:hover,
+            a:focus {
+                color: @Pink_v2;
+            }
+        }
+
+        .navbar-brand {
+            img {
+                max-height: 40px;
+                margin-top: -15px;
+
+                @media(min-width:@screen-xsm-min) and (max-width:@screen-sm-min){
+                    display: block;
+                }
+                @media (min-width: @screen-sm-min) { 
+                    display: block;
+                }
+                @media (min-width: @screen-md-min) { 
+                    display: none;
+                }
+                @media (min-width: @screen-lg-min) { 
+                    display: none;
+                }
+            }
+        }
+
+        .navbar-nav {
+            .btnHome {
+                @media(min-width:@screen-xsm-min) and (max-width:@screen-sm-min){
+                    display: none;
+                }
+                @media (min-width: @screen-sm-min) { 
+                    display: none;
+                }
+                @media (min-width: @screen-md-min) { 
+                    display: block;
+                }
+                @media (min-width: @screen-lg-min) { 
+                    display: block;
+                }
+            }
+        }
+
+
+        @media(min-width:@screen-xsm-min) and (max-width:@screen-sm-min){
+            .navbar-header {
+                box-shadow: none;
+                background-image: none;
+                background-color: white;
+                border-color: transparent;
+                margin-left: -15px;
+                margin-right: -15px;
+                margin-top: -15px;
+                padding-top: 10px;
+            }
+
+            .navbar-collapse, 
+            .navbar-form {
+                border-color: #e7e7e7;
+                background-color: white;
+                padding-left: 15px;
+                margin-left: -15px;
+                margin-right: -15px;
+            }
+        }
+        @media (min-width: @screen-sm-min) { 
+           
+        }
+        @media (min-width: @screen-md-min) { 
+           
+        }
+        @media (min-width: @screen-lg-min) { 
+           
+        }
+    }
+
+
+    .logo {
+        font-size: 20px;
+        margin-top: -5px;
+        font-weight:500; 
+    }
+}

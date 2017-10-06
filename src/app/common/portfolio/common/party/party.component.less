@@ -1,0 +1,37 @@
+@import "../../../../../../src/theme/imports.less";
+.PartyClass {
+    .nav-category {
+        margin-top: 55px;
+
+        a {
+            text-decoration: none;
+            color: @GreyColor_v6;
+            font-size: 18px;
+            cursor: pointer;
+            font-weight: 600;
+            text-transform: uppercase;
+
+            .itemCategory {
+                text-align: center;
+                padding: 15px;
+                svg path,
+                svg circle,
+                svg rect,
+                svg polygon {
+                    fill: @Greay600;
+                }
+            }
+        }
+        a:hover {
+            color: @Pink_v2;
+            .itemCategory {
+                svg path,
+                svg circle,
+                svg rect,
+                svg polygon {
+                    fill: @Pink_v2;
+                }
+            }
+        }
+    }
+}

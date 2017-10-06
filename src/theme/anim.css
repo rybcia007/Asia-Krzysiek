@@ -1,0 +1,50 @@
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( .80 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .80 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .75 );
+  }
+  100%
+  {
+    transform: scale( .75 );
+  }
+}
+
+
+/* border li */
+/* @-webkit-keyframes borderGrow {
+  from {
+    border-bottom: 2px solid #94d6ba;
+    border-bottom-width: 0px;
+  }
+  to {
+    border-bottom: 2px solid #94d6ba;
+    border-bottom-width: 100px;
+  }
+}
+@keyframes borderGrow {
+  from {
+    border-bottom: 2px solid #94d6ba;
+    border-bottom-width: 0px;
+  }
+  to {
+    border-bottom: 2px solid #94d6ba;
+    border-bottom-width: 100px;
+  }
+} */

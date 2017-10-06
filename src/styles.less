@@ -1,0 +1,54 @@
+@import "../src/theme/imports.less";
+body {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: @Greay800;
+    h1 {
+        color: @Greay800;
+    }
+    .btn-primary {
+        background-image: none;
+        background-color: @Greay600;
+        border-color: @Greay600;
+        color: white;
+        text-shadow: none;
+        outline: none;
+        outline-offset: -2px;
+        box-shadow: none;
+    }
+    .btn-primary:focus,
+    .btn-primary:hover {
+        outline: none;
+        outline-offset: -2px;
+        background-image: none;
+        background-color: @Pink_v2;
+        border-color: @Pink_v2;
+        color: white;
+        text-shadow: none;
+        box-shadow: none;
+    }
+    .modal-header {
+        text-align: center;
+    }
+    .NoItemsClass {
+        display: block;
+        width: 100%;
+        color: @GreyColor_v6;
+        text-align: center;
+        font-size: 19px;
+        padding: 10px auto;
+        margin: 25px auto;
+    }
+}
+
+// @Pink_v1:#fac7da;
+// @Pink_v2:#fdadba;
+.no-select {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

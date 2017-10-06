@@ -1,0 +1,378 @@
+@import "../../../../../../src/theme/imports.less";
+
+.Footer-Style {
+    background-color: @GreyColor_v4;
+    border-top: 3px solid @MintLight;
+    font-size: 14px;
+    width: 100%;
+    bottom: 0px;
+    @media(min-width: @screen-xsm-min) and (max-width:@screen-sm-min) {
+        position: static;
+    }
+    @media (min-width: @screen-sm-min) {
+        position: fixed;
+    }
+    @media (min-width: @screen-md-min) {
+        position: fixed;
+    }
+    @media (min-width: @screen-lg-min) {
+        position: fixed;
+    }
+    .footer_style {
+        margin-left: 0px;
+        margin-right: 0px;
+        @media(min-width: @screen-xsm-min) and (max-width:@screen-sm-min) {
+            -webkit-border-top-left-radius: 0px;
+            -webkit-border-top-right-radius: 0px;
+            -moz-border-radius-topleft: 0px;
+            -moz-border-radius-topright: 0px;
+            border-top-left-radius: 0px;
+            border-top-right-radius: 0px;
+            margin-left: -15px;
+            margin-right: -15px;
+            padding-left: 10px;
+            .row {
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+            .pull-right {
+                float: none !important;
+            }
+        }
+        @media (min-width: @screen-sm-min) {
+            -webkit-border-top-left-radius: 4px;
+            -webkit-border-top-right-radius: 4px;
+            -moz-border-radius-topleft: 4px;
+            -moz-border-radius-topright: 4px;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+            margin-left: 0px;
+            margin-right: 0px;
+            padding-left: 15px;
+        }
+        @media (min-width: @screen-md-min) {
+            -webkit-border-top-left-radius: 4px;
+            -webkit-border-top-right-radius: 4px;
+            -moz-border-radius-topleft: 4px;
+            -moz-border-radius-topright: 4px;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+            margin-left: 0px;
+            margin-right: 0px;
+            padding-left: 25px;
+        }
+        @media (min-width: @screen-lg-min) {
+            -webkit-border-top-left-radius: 4px;
+            -webkit-border-top-right-radius: 4px;
+            -moz-border-radius-topleft: 4px;
+            -moz-border-radius-topright: 4px;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+            margin-left: 0px;
+            margin-right: 0px;
+            padding-left: 0px;
+        }
+        h1 {
+            text-transform: uppercase;
+            color: @GreyColor_v4;
+            border-bottom: 1px dashed @GreyMy_v1;
+            padding-bottom: 5px;
+            padding-right: 10px;
+            margin-right: 10px;
+            margin-top: 13px;
+            font-family: 'Roboto Condensed', sans-serif;
+            @media(min-width: @screen-xsm-min) and (max-width:@screen-sm-min) {
+                font-size: 18px;
+            }
+            @media (min-width: @screen-sm-min) {
+                font-size: 18px;
+            }
+            @media (min-width: @screen-md-min) {
+                font-size: 21px;
+            }
+            @media (min-width: @screen-lg-min) {
+                font-size: 21px;
+                margin-top: 20px !important;
+            }
+        }
+        h2 {
+            font-family: 'Quicksand', sans-serif;
+            color: @GreyColor_v4;
+            @media(min-width: @screen-xsm-min) and (max-width:@screen-sm-min) {
+                margin-top:5px;
+                font-size: 22px;
+                padding-left: 0px;
+                text-align: center;
+            }
+            @media (min-width: @screen-sm-min) {
+                margin-top: 5px;
+                font-size: 17px;
+                padding-left: 10px;
+                text-align: center;
+            }
+            @media (min-width: @screen-md-min) {
+                font-size: 17px;
+                padding-left: 10px;
+                text-align: left;
+            }
+            @media (min-width: @screen-lg-min) {
+                font-size: 17px;
+                font-weight: normal;
+                margin-top: 2px;
+                text-align: left;
+                padding-left: 10px;
+            }
+        }
+        h3 {
+            font-family: 'Quicksand', sans-serif;
+            color: @GreyColor_v4;
+            @media(min-width: @screen-xsm-min) and (max-width:@screen-sm-min) {
+                margin-top:5px;
+                font-size: 35px;
+                padding-left: 0px;
+                text-align: center;
+            }
+            @media (min-width: @screen-sm-min) {
+                margin-top: 5px;
+                font-size: 17px;
+                padding-left: 10px;
+                text-align: center;
+            }
+            @media (min-width: @screen-md-min) {
+                font-size: 17px;
+                padding-left: 10px;
+                text-align: left;
+            }
+            @media (min-width: @screen-lg-min) {
+                font-size: 17px;
+                font-weight: normal;
+                margin-top: 2px;
+                text-align: left;
+                padding-left: 10px;
+            }
+        }
+        span {
+            color: @GreyColor_v7;
+            @media(min-width: @screen-xsm-min) and (max-width:@screen-sm-min) {
+                font-size: 18px;
+                margin-right: 5px;
+                margin-left: -15px;
+            }
+            @media (min-width: @screen-sm-min) {
+                font-size: 14px;
+                margin-right: 5px;
+            }
+            @media (min-width: @screen-md-min) {
+                font-size: 12px;
+                margin-right: 5px;
+                margin-left: 5px;
+            }
+            @media (min-width: @screen-lg-min) {
+                font-size: 12px;
+                margin-right: 5px;
+                margin-left: 5px;
+            }
+        }
+        .copywriter {
+            text-align: left;
+            padding: 8px 0px;
+            color: @GreyColor_v7;
+        }
+        .create-by {
+            text-align: right;
+        }
+        .site-map {
+            a {
+                color: @GreyColor_v4;
+                text-decoration: none;
+            }
+            ul,
+            ol {
+                margin-top: 0;
+                margin-bottom: 10px;
+                @media(min-width: @screen-xsm-min) and (max-width:@screen-sm-min) {
+                    margin-left: -40px;
+                    margin-right: 10px;
+                }
+                @media (min-width: @screen-sm-min) {
+                    margin-left: -26px;
+                    margin-right: 24px;
+                }
+                @media (min-width: @screen-md-min) {
+                    margin-left: -26px;
+                    margin-right: 24px;
+                }
+                @media (min-width: @screen-lg-min) {
+                    margin-left: -26px;
+                    margin-right: 24px;
+                }
+            }
+            li {
+                font-family: 'Quicksand', sans-serif;
+                cursor: pointer;
+                border-bottom: solid 2px transparent;
+                list-style-type: none;
+                padding: 4px;
+                padding-left: 10px;
+            }
+            li:hover {
+                cursor: pointer;
+                border-bottom: solid 2px @MintLight;
+                background-color: rgba(167, 164, 171, 0.25);
+                color: @GreyColor_v4; // -webkit-animation: borderGrow 2s;
+                // animation: borderGrow 2s;
+            }
+        }
+        .logo-footer {
+            margin-left: 70px;
+            h1 {
+                text-transform: uppercase;
+                font-family: 'Roboto Condensed', sans-serif;
+                font-weight: bold;
+                margin-top: 25px;
+                color: #797979;
+                border-bottom-style: none;
+                @media(min-width: @screen-xsm-min) and (max-width:@screen-sm-min) {
+                    font-size: 22px;
+                }
+                @media (min-width: @screen-sm-min) {
+                    font-size: 22px;
+                }
+                @media (min-width: @screen-md-min) {
+                    font-size: 22px;
+                }
+                @media (min-width: @screen-lg-min) {
+                    font-size: 30px;
+                    padding-top: 15px;
+                }
+            }
+            h2 {
+                text-transform: capitalize;
+                font-family: 'Raleway', sans-serif;
+                font-weight: bold;
+                color: #929292;
+                @media(min-width: @screen-xsm-min) and (max-width:@screen-sm-min) {
+                    font-size: 12px;
+                    margin-top: -10px;
+                    text-align: left;
+                    margin-left: 0px;
+                }
+                @media (min-width: @screen-sm-min) {
+                    font-size: 15px;
+                    margin-top: -15px;
+                    margin-left: -10px;
+                }
+                @media (min-width: @screen-md-min) {
+                    font-size: 15px;
+                    margin-top: -15px;
+                    margin-left: -10px;
+                }
+                @media (min-width: @screen-lg-min) {
+                    margin-top: -15px;
+                    font-size: 15px;
+                    margin-left: -10px;
+                }
+            }
+            .sing_and {
+                font-family: 'PT Serif', serif;
+                margin-left: -30px;
+                margin-right: -30px;
+                color: #929292;
+                @media(min-width: @screen-xsm-min) and (max-width:@screen-sm-min) {
+                    font-size: 50px;
+                    margin-top: 3px;
+                    margin-left: -20px;
+                    margin-right: 0px;
+                    padding: 5px;
+                }
+                @media (min-width: @screen-sm-min) {
+                    font-size: 55px;
+                    margin-top: 0px;
+                    padding: 5px;
+                    margin-right: -13px;
+                    margin-left: -35px;
+                }
+                @media (min-width: @screen-md-min) {
+                    font-size: 55px;
+                    margin-top: 0px;
+                    padding: 5px;
+                    margin-right: -13px;
+                    margin-left: -35px;
+                }
+                @media (min-width: @screen-lg-min) {
+                    font-size: 55px;
+                    padding: 5px;
+                    margin-right: -13px;
+                    margin-left: -35px;
+                    padding-top: 18px;
+                }
+            }
+        }
+        .social-media {
+            h1 {
+                border: none;
+                text-transform: initial;
+                color: #676768;
+                font-family: 'Roboto Condensed', sans-serif;
+                @media(min-width: @screen-xsm-min) and (max-width:@screen-sm-min) {
+                    padding-top: 90px;
+                    text-align: center;
+                    margin-right: 0px;
+                    margin-bottom: 3px;
+                }
+                @media (min-width: @screen-sm-min) {
+                    padding-top: 100px;
+                    text-align: right;
+                    margin-right: 30px;
+                    margin-bottom: 3px;
+                }
+                @media (min-width: @screen-md-min) {
+                    padding-top: 100px;
+                    text-align: right;
+                    margin-right: 3px;
+                    margin-bottom: 3px;
+                }
+                @media (min-width: @screen-lg-min) {
+                    padding-top: 100px;
+                    text-align: right;
+                    margin-right: 30px;
+                    margin-bottom: 3px;
+                }
+            }
+            .social-icon {
+                @media(min-width: @screen-xsm-min) and (max-width:@screen-sm-min) {
+                    text-align: center;
+                    margin-right: 10px;
+                    margin-bottom: 10px;
+                }
+                @media (min-width: @screen-sm-min) {
+                    text-align: right;
+                    margin-right: 35px;
+                }
+                @media (min-width: @screen-md-min) {
+                    text-align: right;
+                    margin-right: 35px;
+                }
+                @media (min-width: @screen-lg-min) {
+                    text-align: right;
+                    margin-right: 35px;
+                }
+                a {
+                    text-decoration: none;
+                    svg path,
+                    svg circle,
+                    svg rect {
+                        fill: #797979;
+                    }
+                }
+                a:hover {
+                    svg path,
+                    svg circle,
+                    svg rect {
+                        fill: #6eaf93;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,147 @@
+<!-- <app-title-page [itemName]="namePage"></app-title-page>
+<app-menu-nav [itemName]="navigation"></app-menu-nav> -->
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="PanelUploadClass">
+        <h3> Podziel sie z nami Twoimi wspomnieniami!</h3>
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Dodaj pliki</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="SubTitleClass">
+        <h4>Nadesłane materiały</h4>
+      </div>
+    </div>
+  </div>
+
+  <div class="">
+
+    <div class="col-md-3">
+      <div class="PhotographyClass">
+        <img class="img-responsive" style="background-image: url('assets/photo/photo_1.jpg');" />
+        <p>Kto wysłał</p>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="PhotographyClass">
+        <img class="img-responsive" style="background-image: url('assets/photo/photo_3.jpg');" />
+        <p>Kto wysłał</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="PhotographyClass">
+        <img class="img-responsive" style="background-image: url('assets/photo/photo_1.jpg');" />
+        <p>Kto wysłał</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="PhotographyClass">
+        <img class="img-responsive" style="background-image: url('assets/photo/photo_2.jpg');" />
+        <p>Kto wysłał</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="PhotographyClass">
+        <img class="img-responsive" style="background-image: url('assets/photo/photo_1.jpg');" />
+        <p>Kto wysłał</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="PhotographyClass">
+        <img class="img-responsive" style="background-image: url('assets/photo/photo_1.jpg');" />
+        <p>Kto wysłał</p>
+      </div>
+    </div>
+
+
+    <!-- Brak plików  -->
+    <!-- <div class="NoItemsClass col-md-12">
+      Brak plików
+    </div> -->
+
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="PaginationBottomClass">
+        Dolna belka stronicowania
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 
+  <div class="RelationshipClass">
+    <div class="container">
+
+
+      <div class="GalleryModul">
+        <div class="row">
+          <div class="col-md-12">
+            <h3>Nadesłane materiały</h3>
+            <div class="row">
+              <div class="col-md-12">
+                <div>
+                  <div class="pull-left">Pokaż na stronie [10] </div>
+                  <div class="pull-right">[1] 2 3 4</div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                [Zjęcie] <br /> [nadesłane przez XXX]
+              </div>
+              <div class="col-md-12">
+                <div>
+                  <div class="pull-left">Pokaż na stronie [10] </div>
+                  <div class="pull-right">[1] 2 3 4</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+
+
+
+<!-- Modal dodawanie plików -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Dodawanie plików</h4>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label for="sel1">Twoje imię:</label>
+          <input type="text" class="form-control" id="exampleInputPassword1" placeholder="np. Joanna">
+        </div>
+        <div class="form-group">
+          <label for="sel1">Kategoria / #TAG:</label>
+          <select class="form-control ">
+            <option>#Slub</option>
+            <option>#PrzyjecieWeselne</option>
+            <option>#ZabawneSytuacje</option>
+          </select>
+        </div>
+        <div>
+          [ WYBIERZ PLIKI ]
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Anuluj</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Wyślij</button>
+      </div>
+    </div>
+  </div>
+</div>
