@@ -11,6 +11,7 @@ import { PartyComponent } from './common/party/party.component';
 import { BlogComponent } from './common/blog/blog.component';
 import { RelationshipComponent } from './common/relationship/relationship.component';
 import { ContactComponent } from './common/contact/contact.component';
+import { SharedModule } from './../shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { ContactComponent } from './common/contact/contact.component';
     ContactComponent
   ],
   imports: [
+    SharedModule,
     Router_module,
     BrowserModule,
     FormsModule,
