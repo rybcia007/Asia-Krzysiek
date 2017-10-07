@@ -1,5 +1,4 @@
 @import "../../../../../../src/theme/imports.less";
-
 .Footer-Style {
     background-color: @GreyColor_v4;
     border-top: 3px solid @MintLight;
@@ -17,6 +16,7 @@
     }
     @media (min-width: @screen-lg-min) {
         position: fixed;
+        z-index: 10;
     }
     .footer_style {
         margin-left: 0px;
@@ -177,6 +177,14 @@
             text-align: left;
             padding: 8px 0px;
             color: @GreyColor_v7;
+            a {
+                text-decoration: none;
+                color: @GreyColor_v7;
+                cursor: pointer;
+                &:hover {
+                    color: @MintLight;
+                }
+            }
         }
         .create-by {
             text-align: right;

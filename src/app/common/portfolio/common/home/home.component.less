@@ -1,21 +1,25 @@
 @import "../../../../../../src/theme/imports.less";
-
-.item {
-    height: 98vh;
-    min-height: 300px;
-}
-
-.carousel-indicators {
-    li {
-        border-color: @Pink_v2;
+#carouselPicture {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    height: auto;
+    width: 100%;
+    .carousel-indicators {
+        li {
+            border-color: @Pink_v2;
+        }
     }
-}
-
-.carousel-indicators .active {
-
-    background-color: @Pink_v2;
-}
-
-#carouselExampleIndicators{
-    // margin-top: -80px;
+    .carousel-inner {
+        max-height: 760px;
+        .item {
+            height: 98vh;
+            min-height: 300px;
+            background-size: cover;
+            background-position: top;
+        }
+    }
+    .carousel-indicators .active {
+        background-color: @Pink_v2;
+    }
 }
