@@ -9,6 +9,7 @@ import { TitlePageComponent } from '../shared/common/titlePage/titlePage.compone
 import { FooterComponent } from '../shared/common/footer/footer.component';
 import { CarouselComponent } from '../shared/common/carousel/carousel.component';
 import { MenuNavComponent } from '../shared/common/menu-nav/menu-nav.component';
+import { TimeToComponent } from '../shared/common/timeTo/timeTo.component';
 
 @NgModule({
     imports: [
@@ -23,6 +24,7 @@ import { MenuNavComponent } from '../shared/common/menu-nav/menu-nav.component';
         FooterComponent,
         CarouselComponent,
         MenuNavComponent,
+        TimeToComponent,
         SafePipe,
     ],
     providers: [
@@ -34,6 +36,7 @@ import { MenuNavComponent } from '../shared/common/menu-nav/menu-nav.component';
         CarouselComponent,
         MenuNavComponent,
         ToastyModule,
+        TimeToComponent,
         SafePipe,
     ]
 })
