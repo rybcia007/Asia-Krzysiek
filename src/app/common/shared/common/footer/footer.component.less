@@ -177,17 +177,72 @@
             text-align: left;
             padding: 8px 0px;
             color: @GreyColor_v7;
-            a {
-                text-decoration: none;
-                color: @GreyColor_v7;
-                cursor: pointer;
-                &:hover {
-                    color: @MintLight;
+            .ownerCopyrightLaw {
+                @media(min-width: @screen-xsm-min) and (max-width:@screen-sm-min) {
+                    text-align: center;
+                    margin-bottom: 10px;
+                }
+                @media (min-width: @screen-sm-min) {
+                    text-align: left;
+                }
+                @media (min-width: @screen-md-min) {
+                    text-align: left;
+                }
+                @media (min-width: @screen-lg-min) {
+                    text-align: left;
+                }
+                a {
+                    text-decoration: none;
+                    color: @GreyColor_v7;
+                    cursor: pointer;
+                    &:hover {
+                        color: @MintLight;
+                        border-bottom: 1px dashed @MintLight;
+                    }
                 }
             }
         }
         .create-by {
-            text-align: right;
+            @media(min-width: @screen-xsm-min) and (max-width:@screen-sm-min) {
+                text-align: center;
+            }
+            @media (min-width: @screen-sm-min) {
+                text-align: right;
+            }
+            @media (min-width: @screen-md-min) {
+                text-align: right;
+            }
+            @media (min-width: @screen-lg-min) {
+                text-align: right;
+            }
+            .personContact {
+                @media(min-width: @screen-xsm-min) and (max-width:@screen-sm-min) {
+                    display: block;
+                    font-size: 1.08em;
+                    margin-bottom: 0.35em;
+                    .separator {
+                        display: none;
+                    }
+                }
+                @media (min-width: @screen-sm-min) {
+                    display: block;
+                    .separator {
+                        display: none;
+                    }
+                }
+                @media (min-width: @screen-md-min) {
+                    display: inline-block;
+                    .separator {
+                        display: inline-block;
+                    }
+                }
+                @media (min-width: @screen-lg-min) {
+                    display: inline-block;
+                    .separator {
+                        display: inline-block;
+                    }
+                }
+            }
         }
         .site-map {
             a {
