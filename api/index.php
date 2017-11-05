@@ -17,3 +17,5 @@ echo "Connected successfully";
 
 <!--Kurs Angular 2 (cz. 2) - panel administracyjny, stronicowanie, edycja, PHP #22 - YouTube  -->
 <!-- https://www.youtube.com/watch?v=CyAGlHo2GL4 -->
+
+<!--https://github.com/bencentra/php-rest-api  -->
