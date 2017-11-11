@@ -28,7 +28,7 @@ import { SharedModule } from './../shared/shared.module';
     Router_module,
     BrowserModule,
     FormsModule,
-    HttpModule,
+    HttpModule
   ],
   providers: [
 

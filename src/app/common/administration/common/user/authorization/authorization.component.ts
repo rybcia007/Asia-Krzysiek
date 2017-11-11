@@ -1,3 +1,5 @@
+import { HttpClient, HttpErrorResponse } from '@angular/common/http';
+import { Product } from './../../../models/productModels';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +9,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AuthorizationComponent implements OnInit {
 
-  constructor() { }
+  products: Array<Product>;
 
-  ngOnInit() {
+  constructor(private http: HttpClient){
   }
 
+  ngOnInit(): void {
+
+    this.http.get('http://www.skazaninasiebie.pl/api/read.php').subscribe(res => {
+      // console.log(data);
+
+    },
+    (err: HttpErrorResponse) => {
+          if (err.error instanceof Error) {
+            console.log("Client-side error occured.");
+          } else {
+            console.log("Server-side error occured.");
+          }
+    });
+  }
 }

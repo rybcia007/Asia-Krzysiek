@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, QueryList, ErrorHandler } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 import { appRouter } from './app.router';
 import { AppComponent } from './app.component';
@@ -19,6 +20,7 @@ import { AdministrationModule } from './common/administration/administration.mod
     BrowserModule,
     FormsModule,
     HttpModule,
+    HttpClientModule,
     appRouter,
   ],
   providers: [],
