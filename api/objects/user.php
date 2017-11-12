@@ -1,5 +1,7 @@
 <?php
   class User {
+    private $table_name = "users";
+
     public $id;
     public $login;
     public $password;
@@ -8,7 +10,7 @@
     public $surname;
     public $userRole_id;
 
-    public function __construct($db){
-        $this->conn = $db;
+    function getTableName() {
+        return $table_name;
     }
   }
