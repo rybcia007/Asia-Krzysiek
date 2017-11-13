@@ -7,6 +7,8 @@
 
   $database = new Database();
   $db = $database->getConnection();
+
+  
   $product = new Product($db);
   $stmt = $product->read();
   $num = $stmt->rowCount();
