@@ -4,7 +4,7 @@ export const ROUTES_PATHS = {
     About: 'o-nas',
     Wedding: 'nasz-slub',
     Party: 'przyjecie-weselne',
-    Blog: 'blog',
+    Honeymoon: 'podroz-poslubna',
     Relationship: 'wasza-relacja',
     Transport: 'transport',
     Contact: 'kontakt'
