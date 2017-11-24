@@ -7,6 +7,8 @@
 
   $database = new Database();
   $db = $database->getConnection();
+
+  
   $product = new Product($db);
   $stmt = $product->read();
   $num = $stmt->rowCount();
@@ -32,7 +34,6 @@
 
       echo json_encode($products_arr);
   }
-
   else{
       echo json_encode(
           array("message" => "No products found.")

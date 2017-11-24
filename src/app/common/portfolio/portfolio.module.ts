@@ -8,7 +8,7 @@ import { HomeComponent } from './common/home/home.component';
 import { AboutComponent } from './common/about/about.component';
 import { WeddingComponent } from './common/wedding/wedding.component';
 import { PartyComponent } from './common/party/party.component';
-import { BlogComponent } from './common/blog/blog.component';
+import { HoneymoonComponent } from './common/honeymoon/honeymoon.component';
 import { RelationshipComponent } from './common/relationship/relationship.component';
 import { ContactComponent } from './common/contact/contact.component';
 import { SharedModule } from './../shared/shared.module';
@@ -19,7 +19,7 @@ import { SharedModule } from './../shared/shared.module';
     AboutComponent,
     WeddingComponent,
     PartyComponent,
-    BlogComponent,
+    HoneymoonComponent,
     RelationshipComponent,
     ContactComponent
   ],
@@ -28,7 +28,7 @@ import { SharedModule } from './../shared/shared.module';
     Router_module,
     BrowserModule,
     FormsModule,
-    HttpModule,
+    HttpModule
   ],
   providers: [
 
